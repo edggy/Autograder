@@ -1,7 +1,7 @@
 # Autograder
 An automatic project and lab grader
 
-Usage: python3 checkLabs.py -d <folder> -o <output file> -t <tester file> [-v] [-s <seed>] [-to <timeout>] [-tpt] -p <plugins>
+Usage: `python3 checkLabs.py -d <folder> -o <output file> -t <tester file> [-v] [-s <seed>] [-to <timeout>] [-tpt] -p <plugins>`
 
 -d: Directory - The directory to find files to run
 
@@ -19,5 +19,5 @@ Usage: python3 checkLabs.py -d <folder> -o <output file> -t <tester file> [-v] [
 
 -p: Plugins - A comma seperated list of plugins to use e.g. countSteps,badFunCheck,plagCheck
 
-Example:  python3 checkLabs.py -d 'Project 5' -o P5grades.txt -t tester5p.py -v -s 0 -to 10 -tpt -p countSteps,badFunCheck,plagCheck
+Example:  `python3 checkLabs.py -d 'Project 5' -o P5grades.txt -t tester5p.py -v -s 0 -to 10 -tpt -p countSteps,badFunCheck,plagCheck`
 
